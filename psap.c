@@ -94,7 +94,7 @@ int main()
                 rc1[j]-=rc1[j+1];
             }//ascending
         }
-    }
+    }//bubble sort used
     printf("\n\n\nDefaulters list:\n***********\n");
     for(i=0;i<5;i++)
        printf("RN:%d=%f\n",rc1[i],pc1[i]);
